@@ -28,7 +28,7 @@
         public static string FormatString(string arg)
         {
             // 2. Apply context action
-            //    Place text caret on "arg"
+            //    Place text caret anywhere between the string arguments
             //    Note the hammer action - a context action is available (no squiggly!)
             //    Hit Alt+Enter, select "To String.Format invocation"
             return "Hello" + arg + "World";
